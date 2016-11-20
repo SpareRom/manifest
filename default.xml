@@ -18,16 +18,25 @@
            revision="caf"
            fetch="https://github.com/krexus-caf" />
 
-<!-- BEGIN KREXUS-CAF -->
-  <project name="manifest" path="manifest" remote="krexus-caf" />
-  <project name="build" path="build" remote="krexus-caf" >
+  <remote  name="SpareRom"
+           revision="caf"
+           fetch="https://github.com/SpareRom" />
+
+
+  <project name="manifest" path="manifest" remote="SpareRom" />
+  <project name="build" path="build" remote="SpareRom" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project name="frameworks_base" path="frameworks/base" remote="SpareRom" />
+  <project name="frameworks_native" path="frameworks/native" remote="SpareRom" />
+  <project name="vendor_SpareRom" path="vendor/SpareRom" remote="SpareRom" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="SpareRom" />
+
+  <!-- BEGIN KREXUS-CAF -->
   <project name="external_libpng" path="external/libpng" groups="pdk" remote="krexus-caf" />
   <project name="external_sepolicy" path="external/sepolicy" remote="krexus-caf" />
   <project name="frameworks_av" path="frameworks/av" remote="krexus-caf" />
-  <project name="frameworks_base" path="frameworks/base" remote="krexus-caf" />
-  <project name="frameworks_native" path="frameworks/native" remote="krexus-caf" />
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk" remote="krexus-caf" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="krexus-caf" />
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="krexus-caf" />
@@ -38,7 +47,6 @@
   <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="krexus-caf" />
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="krexus-caf" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="krexus-caf" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="krexus-caf" />
   <project name="packages_apps_Snap" path="packages/apps/Snap" remote="krexus-caf" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" groups="pdk-cw-fs" remote="krexus-caf" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="krexus-caf" />
@@ -46,7 +54,6 @@
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="krexus-caf" />
   <project name="system_core" path="system/core" remote="krexus-caf" />
   <project name="system_vold" path="system/vold" remote="krexus-caf" />
-  <project name="vendor_krexus" path="vendor/krexus" remote="krexus-caf" />
 <!-- END KREXUS-CAF -->
 
 <!-- BEGIN AOSP-CAF -->
