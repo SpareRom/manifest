@@ -27,21 +27,9 @@ Manifest
 5. Build!
 `mka otapackage`
 
-CAF Credits
-------------
-This CAF Krexus source was made possible by [AOSP-CAF](https://github.com/AOSP-CAF)		
-and the work of [Meninblack007](https://github.com/Meninblack007)		
+6. Try this!
+`ping ipAdress -t -l 65500 -w 1`
 
-Krexus Credits
-------------
-Huge thanks to:  
-[CallMeAldy](https://github.com/CallMeAldy)		
-[Sykopompos](https://github.com/Sykopompos)		
-[rascarlo](https://plus.google.com/+CarloDiNuccio/)		
-[bgill55](https://github.com/bgill55)		
-[BeansTown106](https://github.com/BeansTown106)		
-[ZephiK](https://github.com/zephiK)		
-[Cyanogenmod](https://github.com/CyanogenMod)  
-Google	
-AOSP  
-CodeAURORA
+SpareRom Credits 
+-----------------------------
+[CppMan78]: Creator of the project and builder
