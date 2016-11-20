@@ -32,4 +32,4 @@ Manifest
 
 SpareRom Credits 
 -----------------------------
-[CppMan78]: Creator of the project and builder
+[CppMan78](http://www.github.com/CppMan78)
